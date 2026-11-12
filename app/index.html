@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="build" content="ceffd72184baa56f0dedfdbafb720ebe167b3004" />
+    <meta name="build" content="b89ad52a5c2ea877528be412e64f7932b85cfd94" />
     <title>sched-prod · incidents</title>
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="app.js"></script>
@@ -14,6 +14,7 @@
       <p class="sub">sched-prod · tonight</p>
     </header>
     <main data-testid="board">
+      <button type="button" data-testid="new-bar" hidden></button>
       <p data-testid="loader">Loading incidents…</p>
       <p data-testid="empty" hidden>No incidents tonight.</p>
       <ul data-testid="incident-list" class="list" hidden></ul>
