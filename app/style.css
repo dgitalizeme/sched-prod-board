@@ -4,7 +4,8 @@ h1 { margin: 0; font-size: 22px; }
 .sub { margin: 2px 0 0; color: #666; }
 .list { list-style: none; margin: 0; padding: 0; max-width: 960px; }
 .loader, [data-testid="loader"], [data-testid="empty"] { color: #555; }
-[data-testid="new-bar"] { display: block; width: 100%; max-width: 960px; margin: 0 0 8px; padding: 8px 12px; border: 0; background: #1d1d1f; color: #fff; font: inherit; text-align: left; cursor: pointer; }
+.new-slot { height: 44px; max-width: 960px; }
+[data-testid="new-bar"] { display: block; width: 100%; height: 36px; margin: 0 0 8px; padding: 8px 12px; border: 0; background: #1d1d1f; color: #fff; font: inherit; text-align: left; cursor: pointer; box-sizing: border-box; }
 [data-testid="new-bar"][hidden] { display: none; }
 .row { display: grid; grid-template-columns: 90px 50px 1fr minmax(12rem, auto) auto auto; gap: 12px; align-items: center; min-height: 44px; padding: 0 12px; border-bottom: 1px solid #e5e5e5; background: #fff; }
 [data-testid="ack"] { font: inherit; padding: 4px 10px; }
